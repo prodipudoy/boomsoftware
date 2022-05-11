@@ -1,0 +1,310 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) {
+
+     /* header section start  */
+     #navbarNav ul {
+         width: 75%;
+         margin: 0 auto;
+         /* background-color: green; */
+         padding: 0 30px;
+     }
+
+     header {
+         position: relative;
+     }
+
+     #navbarNav {
+         position: absolute;
+         top: 64px;
+         width: 75%;
+         /* margin: 0 auto; */
+         text-align: center;
+         background: #000000b3;
+         left: 13%;
+     }
+
+     /* header section end  */
+     /* banner section start  */
+     #banner {
+         margin-top: -80px;
+     }
+
+     .caption_box {
+         padding: 170px 0;
+     }
+
+     .caption_box h2 {
+         font-size: 36px;
+     }
+
+     .caption_box p {
+         font-size: 16px;
+     }
+
+     /* banner section end  */
+
+     /* about section start */
+     .about_right img {
+         width: 17%;
+     }
+
+     .about_right {
+         margin-top: 50px;
+     }
+
+     /* about section end */
+
+     /* what we do section start  */
+     .head_shape2 {
+         margin-left: 140px;
+     }
+
+     .wwd_left h2 {
+         font-size: 38px;
+     }
+
+     .subtitle2 {
+         margin-left: 110px;
+     }
+
+     /* what we do section end  */
+
+     /* impression section start  */
+     .contact_btn a {
+         font-size: 15px;
+     }
+
+     .mybtn1 {
+         padding: 10px 20px;
+     }
+
+     .mybtn2 {
+         padding: 10px 20px;
+     }
+
+     .right_imp {
+         text-align: center;
+         margin-top: 100px;
+     }
+
+     .right_imp img {
+         width: 75%;
+         margin: 0 auto;
+     }
+
+     /* impression section end  */
+
+     /* examples section start  */
+     .p_content {
+         bottom: 145px;
+         padding: 30px 15px;
+     }
+
+     .p_content a {
+         font-size: 18px;
+     }
+
+     /* examples section end  */
+
+     /* contact sectioni start  */
+     .icon_box span i {
+         font-size: 28px;
+     }
+
+     .location_box h2 {
+         font-size: 17px;
+         font-weight: 700;
+     }
+
+     /* contact sectioni end */
+
+     /* footer section start  */
+     .f_logo {
+         text-align: center;
+     }
+
+     .f_middle {
+         text-align: center;
+         margin-top: 30px;
+     }
+
+     .f_last {
+         text-align: center;
+         margin-top: 20px;
+     }
+
+     /* footer section end  */
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+     /* header section start  */
+     #navbarNav ul {
+         width: 75%;
+         margin: 0 auto;
+         /* background-color: green; */
+         padding: 0 30px;
+     }
+
+     header {
+         position: relative;
+     }
+
+     #navbarNav {
+         position: absolute;
+         top: 64px;
+         width: 75%;
+         /* margin: 0 auto; */
+         text-align: center;
+         background: #000000b3;
+         left: 13%;
+     }
+
+     /* header section end  */
+     /* banner section start  */
+     #banner {
+         margin-top: -80px;
+     }
+
+     .caption_box {
+         padding: 170px 0;
+     }
+
+     .caption_box h2 {
+         font-size: 36px;
+     }
+
+     .caption_box p {
+         font-size: 16px;
+     }
+
+     /* banner section end  */
+
+     /* about section start */
+     .about_right {
+         margin-top: 50px;
+     }
+
+     /* about section end */
+
+     /* impression section start  */
+     .right_imp {
+         text-align: center;
+         margin-top: 100px;
+     }
+
+     .right_imp img {
+         width: 75%;
+         margin: 0 auto;
+     }
+
+     /* impression section end  */
+
+     /* examples section start  */
+     .p_content {
+         bottom: 145px;
+         padding: 30px 15px;
+     }
+
+     .p_content a {
+         font-size: 18px;
+     }
+
+     /* examples section end  */
+
+     /* contact sectioni start  */
+     .location_box h2 {
+         font-size: 17px;
+         font-weight: 700;
+     }
+
+     /* contact sectioni end */
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+     /* header section start  */
+     #navbarNav ul {
+         width: 75%;
+         margin: 0 auto;
+         /* background-color: green; */
+         padding: 0 30px;
+     }
+
+     header {
+         position: relative;
+     }
+
+     #navbarNav {
+         position: absolute;
+         top: 64px;
+         width: 75%;
+         /* margin: 0 auto; */
+         text-align: center;
+         background: #000000b3;
+         left: 13%;
+     }
+
+     /* header section end  */
+
+     /* banner section start  */
+     #banner {
+         margin-top: -80px;
+     }
+
+     .caption_box {
+         padding: 170px 0;
+     }
+
+     /* banner section end  */
+
+
+     /* about section star  */
+     .about_right img {
+         width: 17%;
+     }
+
+     /* about section end  */
+
+     /* what we do section start  */
+     .single_service_box {
+         padding: 20px 10px;
+     }
+
+     .subtitle2 {
+         margin-left: 155px;
+     }
+
+     /* what we do section end  */
+
+     /* examples section start  */
+     .p_content {
+         bottom: 145px;
+         padding: 30px 15px;
+     }
+
+     .p_content a {
+         font-size: 18px;
+     }
+
+     /* examples section end  */
+
+     /* contact sectioni start  */
+     .location_box h2 {
+         font-size: 17px;
+         font-weight: 700;
+     }
+
+     /* contact sectioni end */
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /*Extra  large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+ /*Extra extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1400px) {}

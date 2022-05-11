@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header section start  */
+header {
+    /* background-color: #000000b3; */
+    transition: top 0.3s;
+    z-index: 999;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+#navbarNav ul li a {
+    color: white;
+}
+
+/* banner section start */
+#banner {
+    background-image: url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -100px;
+}
+
+.caption_box {
+    padding: 270px 0;
+}
+
+.caption_box h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+
+.caption_box p {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+/* banner section end */
+
+.head_shape {
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.head_shape span {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.hs_1 {
+    background-color: #39B54A;
+}
+
+.hs_2 {
+    background-color: #13A89E;
+}
+
+.hs_3 {
+    background-color: #EF4036;
+}
+
+.hs_4 {
+    background-color: #F7941D;
+}
+
+
+
+/* about section start  */
+#about {
+    padding: 75px 0;
+}
+
+.about_left h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+.about_left h2 span {
+    color: #39B54A;
+    font-size: 60px;
+}
+
+.subtitle {
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.about_right {
+    padding: 40px 20px;
+    border-radius: 20px;
+
+    -webkit-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.about_right h4 {
+    color: #666666;
+    font-size: 16px;
+
+}
+
+.about_right img {
+    width: 10%;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+}
+
+/* about section end  */
+
+/* what we do section  start  */
+#whatwedo {
+    padding: 75px 0;
+}
+
+.wwd_left h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+.wwd_left h2 span {
+    color: #13A89E;
+    font-size: 60px;
+}
+
+.head_shape2 {
+    margin-left: 180px;
+}
+
+.subtitle2 {
+    margin-left: 200px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.single_service_box {
+    margin-top: 50px 10px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 1px 9px -2px rgba(201, 183, 201, 1);
+    -moz-box-shadow: 0px 1px 9px -2px rgba(201, 183, 201, 1);
+    box-shadow: 0px 1px 9px -2px rgba(201, 183, 201, 1);
+    height: 95%;
+
+}
+
+.single_service_box img {
+    opacity: .7;
+    width: 35%;
+}
+
+.single_service_box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* what we do section end  */
+
+/* impression section start  */
+#impression {
+    background-color: #F9F9F9;
+    padding: 100px 0 75px;
+}
+
+.left_imp h2 {
+    font-weight: 700;
+}
+
+.mybtn1 {
+    padding: 15px 50px;
+    background-color: #EF4036;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.mybtn1:hover {
+    color: white;
+    background-color: #13A89E;
+    transition: all .5s ease-in-out;
+}
+
+.mybtn2 {
+    padding: 15px 50px;
+    background-color: #F7941D;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.mybtn2:hover {
+    color: white;
+    background-color: #39B54A;
+    transition: all .5s ease-in-out;
+}
+
+/* impression section end  */
+
+/* examples section start  */
+#examples {
+    background-image: url(../images/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 0;
+}
+
+.portfolio_div {
+    background-image: url(../images/portfolio/1.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 1px 9px -2px rgba(0, 0, 0, 0.164);
+    -moz-box-shadow: 0px 1px 9px -2px rgba(0, 0, 0, 0.164);
+    box-shadow: 0px 1px 9px -2px rgba(0, 0, 0, 0.164);
+
+}
+
+.portfolio_div2 {
+    background-image: url(../images/portfolio/3-1.jpg);
+
+
+}
+
+.portfolio_div3 {
+    background-image: url(../images/portfolio/4.jpg);
+
+
+}
+
+.portfolio_div4 {
+    background-image: url(../images/portfolio/2.jpg);
+
+
+}
+.portfolio_div5{
+    background-image: url(../images/portfolio/boomcv.jpg);
+}
+
+.portfolio_div6{
+    background-image: url(../images/portfolio/boomvideo.jpg);
+}
+
+.portfolio_div7{
+    background-image: url(../images/portfolio/boomreviews.jpg);
+}
+
+.portfolio_div8{
+    background-image: url(../images/portfolio/paws2equine.jpg);
+}
+.portfolio_div:hover {
+    background-position: bottom;
+    transition: 5s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 70%);
+}
+
+.p_content {
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    padding: 30px;
+
+
+}
+
+.p_content a {
+    z-index: 9;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.p_content p {
+    z-index: 9;
+    color: white;
+}
+
+.about_left2 h2 {
+    color: white;
+}
+
+.head_shape3 {
+    margin-left: 120px;
+    margin-top: -10px;
+}
+
+.subtitle3 {
+    color: white;
+    margin-left: 100px;
+}
+
+/* examples section end */
+
+/* testimonial section start  */
+#testimonials {
+    padding: 75px 0;
+}
+
+.single_testi {
+    padding: 30px;
+    margin-top: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    -webkit-box-shadow: 0px 1px 9px -2px rgba(0, 0, 0, 0.199);
+    -moz-box-shadow: 0px 1px 9px -2px rgba(0, 0, 0, 0.199);
+    box-shadow: 0px 1px 9px -2px rgba(0, 0, 0, 0.199);
+}
+
+.user_img img {
+
+    border-radius: 50%;
+}
+
+.user_info h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* testimonial section end  */
+
+
+/* .contact section start */
+#contact {
+    background-color: #F9F9F9;
+    padding: 75px 0;
+}
+
+.subtitle4 {
+    margin-left: 120px;
+}
+
+.myform input,
+.myform textarea {
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.myform input:focus,
+.myform textarea:focus {
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.myform button {
+    padding: 15px 40px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+}
+
+.myform button:hover {
+    color: white;
+}
+
+.location {
+    margin-top: 100px;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.icon_box span i {
+    font-size: 48px;
+}
+
+.location_box h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* .contact section end */
+
+/* footer section start  */
+footer {
+    padding: 75px 0;
+    background-color: #000000b3;
+}
+.f_logo a img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.f_logo h6{
+    margin-top: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.f_logo p{
+    color: white;
+}
+
+.f_logo ul li a{
+    color: white;
+    text-decoration: none;
+}
+.f_logo ul li a i{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    
+}
+.f_middle h6 {
+    color: white;
+}
+
+.f_last ul li a {
+    display: block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+
+
+}
+
+.f_last ul li a:hover {
+    background-color: #303034;
+    transition: all .6s ease-in-out;
+    color: white;
+
+}
+
+/* footer section end  */
